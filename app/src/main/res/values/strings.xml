@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exercise2</string>
+    <string name="back_button">Kembali</string>
+    <string name="btn_submit">Submit</string>
+    <string name="next">Lanjut</string>
+    <string name="namamhs">NamaMahasiswa</string>
+    <string name="nim">NamaMahasiswa</string>
+    <string name="jdlskripsi">Judul Skripsi</string>
+    <string name="konsentrasi">Konsentrasi</string>
+    <string name="dos1">Dosen Pembimbing 1</string>
+    <string name="dos2">Dosen Pembimbing 2</string>
+    <string name="haris">Haris Setiawan</string>
+    <string name="dwi">Dwi Joko P</string>
+    <string name="apr">Aprilia Kurniati</string>
+</resources>
