@@ -67,12 +67,12 @@ fun ExcersiceApp(
             startDestination = PengelolaHalaman.Home.name,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable(route = PengelolaHalaman.Formulir.name) {
-                HalamanDua(
-                   onNextButtonClicked = {
-                        viewModel.setContact(it)
-                        navController.navigate(PengelolaHalaman.Summary.name)
-                    },
+            composable(route = PengelolaHalaman.Home.name) {
+                HalamanHome(
+                    onNextButtonClicked = {
+                        navController.navigate(PengelolaHalaman.Formulir.name)
+                    }
+                )
             }
         }
     }
